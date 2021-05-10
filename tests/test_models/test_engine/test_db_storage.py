@@ -88,7 +88,7 @@ class TestFileStorage(unittest.TestCase):
         """Test that save properly saves objects to file.json"""
 
 
-class TestImproveDBStorage(unittest.TestCase):
+class TestDBStorage(unittest.TestCase):
     """ Test method get and count """
     @unittest.skipIf(models.storage_t != 'db', "not testing db storage")
     def test_mehotd_get(self):
